@@ -6,8 +6,8 @@ public class Uang {
         System.out.print("Masukan Nominal Uang: ");
         int jumlahUang = input.nextInt();
 
-        int seratusRibu = 0, limapuluhRibu = 0, duapuluhRibu = 0, sepuluhRibu = 0;
-        int limaRibu = 0, duaRibu = 0, seribu = 0, limaRatusRupiah = 0;
+        int seratusRibu , limapuluhRibu , duapuluhRibu , sepuluhRibu ;
+        int limaRibu , duaRibu , seribu , limaRatusRupiah ;
 
         if (jumlahUang >= 100000) {
             seratusRibu = jumlahUang / 100000;
